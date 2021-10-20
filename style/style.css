@@ -1,3 +1,23 @@
 body{
     background-color: aqua;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    background-color: #aaa;
+    height: 500px;
+    text-align: center;
+  }
+  .column1 {
+    float: left;
+    width: 33.33%;
+    background-color: #bbb;
+    height: 500px;
+    text-align: center;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
